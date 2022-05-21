@@ -1,0 +1,6 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "singleQuote": true,
+  "semi": false
+}
