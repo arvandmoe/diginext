@@ -1,26 +1,26 @@
 import { Button } from '@mui/material'
+import { SearchNormal1 } from 'iconsax-react'
 import React, { FC } from 'react'
 
-interface Props {
-  text: string
-}
+interface Props {}
 
-const ContainedButton: FC<Props> = (props) => {
-  const { text } = props
+const SearchButton: FC<Props> = (props) => {
   return (
     <Button
       variant="contained"
       sx={{
+        width: '55px',
+        background: 'primary.main',
+        color: 'white',
         borderRadius: 2,
-        py: 1,
         '&:hover': {
           backgroundColor: 'primary.dark',
         },
       }}
     >
-      {text}
+      <SearchNormal1 size="24" color="#fff" />
     </Button>
   )
 }
 
-export default ContainedButton
+export default SearchButton
