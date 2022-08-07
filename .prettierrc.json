@@ -2,5 +2,6 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "singleQuote": true,
+  "jsxSingleQuote": true,
   "semi": false
 }

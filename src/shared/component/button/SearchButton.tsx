@@ -7,7 +7,7 @@ interface Props {}
 const SearchButton: FC<Props> = (props) => {
   return (
     <Button
-      variant="contained"
+      variant='contained'
       sx={{
         width: '55px',
         background: 'primary.main',
@@ -18,7 +18,7 @@ const SearchButton: FC<Props> = (props) => {
         },
       }}
     >
-      <SearchNormal1 size="24" color="#fff" />
+      <SearchNormal1 size='24' color='#fff' />
     </Button>
   )
 }
